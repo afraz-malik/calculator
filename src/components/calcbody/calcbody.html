@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-color: lightgrey;
+			font-family: serif;
+		}
+		.title{
+			display: flex;
+			align-items: center;
+		}
+		.title p{
+			margin: 0;
+			font-size: 14px;
+			margin: 5px 0px 5px 5px;
+		}
+		.titleimg{
+			display: flex;
+			justify-content: flex-end;
+			/*width: 120px;*/
+			margin-left: auto;
+		}
+		.titleimg img{
+			width: 100%;
+			height: auto;
+			margin-left:10px;
+			cursor: pointer;
+		}
+		.titleimg img:hover{
+			filter: grayscale(10px);
+		}
+		.calculator{
+			width: 300px;
+			height: 500px;
+			/*padding: 1px 10px 10px 10px;*/
+			box-shadow: 1px  1px 1px  red ;
+			border-radius: 5px;
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+		.resultbox{
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+			padding: 10px;
+			width: 100%;
+			height: 170px;
+			border-bottom: 1px solid lightgrey;
+			/*text-align: right;*/
+		}
+		.resultbox p{
+			margin: 0;
+			font-size: 50px;
+			font-weight: bold;
+		}
+		.calcBody{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+		}
+		.calcBody button{
+			/*margin: 5px;*/
+			height: 50px;
+			border: none;
+			color: black;
+			outline: none;
+			/*font-size:14px;*/
+		}
+		.top{
+			background-color: white;
+			font-weight: bold;
+		}
+		.n{
+			font-weight: bold;
+			font-size:20px;
+		}
+		.o{
+			font-size:22px;
+			font-weight: 400;
+		}
+		.calcBody button:hover{
+			background-color: lightgrey;
+		}
+	</style>
+</head>
+<body>
+	<div class="calculator">
+		<div class="title">	
+			<p > Calculator </p>
+			<div class="titleimg">
+				<img src="min.jpg">
+				<img src="max.jpg">
+				<img src="close.jpg">
+			</div>
+		</div>
+		<div class='resultbox '>
+			<p> 150 </p>
+		</div>
+
+		<div class='calcBody'>
+			<button class="top">%</button>
+			<button class="top">x/2</button>
+			<button class="top">x^2</button>
+			<button class="top">1/x</button>
+
+			<button>CE</button>
+			<button>C</button>
+			<button class="">back</button>
+			<button class="o">/</button>
+
+			<button class="n">7</button>
+			<button class="n">8</button>
+			<button class="n">9</button>
+			<button class="o">x</button>
+
+			<button class="n">4</button>
+			<button class="n">5</button>
+			<button class="n">6</button>
+			<button class="o">-</button>
+
+			<button class="n">1</button>
+			<button class="n">2</button>
+			<button class="n">3</button>
+			<button class="o">+</button>
+
+			<button class="n">.</button>
+			<button class="n">0</button>
+			<button class="n">.</button>
+			<button class="o"> =</button>
+
+		</div>
+	</div>
+</body>
+</html>
