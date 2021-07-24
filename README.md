@@ -1,6 +1,21 @@
 # calculator-react
-To run
-----------------------------------------------------------------------
-1.  Npm install
-----------------------------------------------------------------------
-2. Npm Start
+# robofriends
+A simple Calculator App createad on React JS <br/>
+Key Features : 
+<ul>
+  <li>
+    Controlled By keyboard
+  </li>
+For Cloing : 
+<ul>
+  <li>
+    Clone this repository or Fork
+  </li>
+  
+  <li>
+    Npm install
+  </li>
+  
+  <li>
+    Npm Start
+  </li>
