@@ -6,6 +6,9 @@ import Result from './result/result.js';
 import CalcBody from './calcbody/calcbody.js'
 import './App.css'
 
+
+
+
 class App extends React.Component{
   constructor(){
     super();
@@ -15,6 +18,7 @@ class App extends React.Component{
   }
   componentDidMount(){ 
     this.ok()
+    console.log(this.props.result)
   }
   ok=()=>{
     document.addEventListener("keydown"  , (event) => {
